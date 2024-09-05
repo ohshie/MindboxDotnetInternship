@@ -44,8 +44,7 @@ public class GeometryCalcModularTest
         
         Assert.Equal(expectedAnswer, circleArea);
     }
-
-    // Тут 100% из гпт, просто адаптировал под тесты. Не знаю пока как бы реализовал это сам
+    
     [Fact]
     public void IsRight()
     {
