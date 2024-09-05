@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxDotnetInternship", "MindboxDotnetInternship\MindboxDotnetInternship.csproj", "{F69277F2-6A4F-4EB0-BB08-11B232AD9B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{EA7CE339-6C1C-4896-9192-ECF4A5165438}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F69277F2-6A4F-4EB0-BB08-11B232AD9B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69277F2-6A4F-4EB0-BB08-11B232AD9B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69277F2-6A4F-4EB0-BB08-11B232AD9B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69277F2-6A4F-4EB0-BB08-11B232AD9B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7CE339-6C1C-4896-9192-ECF4A5165438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7CE339-6C1C-4896-9192-ECF4A5165438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7CE339-6C1C-4896-9192-ECF4A5165438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7CE339-6C1C-4896-9192-ECF4A5165438}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
