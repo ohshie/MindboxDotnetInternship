@@ -8,7 +8,7 @@ public class GeometryCalcTest
     public void GetTriangleArea()
     {
         // Короче, это решение нифига не клевое, но альтернативы выходят за рамки тестового
-        // все решения что я вижу предлагают экстеншен/хелпер писать для сравнения.
+        // все решения, что я вижу предлагают экстеншен/хелпер писать для сравнения.
         
         var expectedAnswer = 43.301270189221931;
 
@@ -72,5 +72,25 @@ public class GeometryCalcTest
         void ExceptionAction() => geoCalc.GetCircleArea(-1);
 
         Assert.Throws<ArgumentException>(ExceptionAction);
+    }
+
+    [Fact]
+    public void IsRight()
+    {
+        var geoCalc = new GeometryCalc();
+
+        var IsRight = geoCalc.IsRight(1, 1, 1);
+        
+        Assert.True(IsRight);
+    }
+
+    [Fact]
+    public void IsNotRight()
+    {
+        var geoCalc = new GeometryCalc();
+
+        var IsNotRight = geoCalc.IsRight(2, 2, 3);
+        
+        Assert.True(IsNotRight);
     }
 }
